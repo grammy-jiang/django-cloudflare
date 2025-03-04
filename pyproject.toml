@@ -9,3 +9,9 @@ dependencies = [
     "django-extensions>=3.2.3",
     "tzdata>=2025.1",
 ]
+
+[dependency-groups]
+dev = [
+    "ipython>=9.0.1",
+    "werkzeug>=3.1.3",
+]
