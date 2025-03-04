@@ -1,0 +1,7 @@
+[project]
+name = "django-cloudflare"
+version = "0.1.0"
+description = "A Django Application of Cloudflare"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
