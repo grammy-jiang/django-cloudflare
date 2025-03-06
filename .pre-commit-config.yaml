@@ -18,4 +18,5 @@ repos:
         -   --autofix
         -   --indent
         -   '4'
+        -   --no-sort-keys
     -   id: trailing-whitespace
