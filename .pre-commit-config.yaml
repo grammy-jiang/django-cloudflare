@@ -5,6 +5,17 @@ repos:
     rev: v5.0.0
     hooks:
     -   id: check-added-large-files
+    -   id: check-ast
+    -   id: check-builtin-literals
+    -   id: check-docstring-first
+    -   id: check-symlinks
+    -   id: check-toml
     -   id: check-yaml
+    -   id: debug-statements
     -   id: end-of-file-fixer
+    -   id: pretty-format-json
+        args:
+        -   --autofix
+        -   --indent
+        -   '4'
     -   id: trailing-whitespace
