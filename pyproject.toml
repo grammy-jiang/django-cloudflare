@@ -33,3 +33,6 @@ test = [
     "pytest-xdist>=3.6.1",
     "tox>=4.25.0",
 ]
+
+[tool.setuptools]
+packages = ["django_cloudflare"]
